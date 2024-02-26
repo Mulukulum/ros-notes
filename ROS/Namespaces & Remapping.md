@@ -14,7 +14,7 @@
 ## Syntax :  `./image_view image:=right/image` 
 <br>
 
-![[Remapping Diagram.png]]
+![](<Images/Remapping Diagram.png>)
 
 ## Pushing a node into a namespace can be accomplished with a special `__ns` namespace-remapping syntax. 
 
