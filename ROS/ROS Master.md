@@ -12,7 +12,7 @@
 - ### ROS nodes cannot communicate without ROS Master
 <br>
 
-![[Images/ROSCore Graph.png]]
+![](<Images/ROSCore Graph.png>)
 - [i] ### Every node connects to roscore at startup to register details of the message streams it publishes and the streams to which it wishes to subscribe.
 
 - [i] ### When a new node appears, roscore provides it with the information that it needs to form a direct peer-to-peer connection with other nodes publishing and subscribing to the same message topics.
