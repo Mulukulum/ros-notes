@@ -1,5 +1,5 @@
 # Namespaces
-## Messages Streams are called [[Topics]] in ROS
+## Messages Streams are called [[../ROS2/Topics]] in ROS
 
 - ### Following the convention of Unix paths and Internet URIs, ROS uses the forward slash (/) to delimit namespaces. 
 - ### ROS can launch identical nodes into separate namespaces to avoid name collisions.
