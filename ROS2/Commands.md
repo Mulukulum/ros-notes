@@ -10,7 +10,10 @@ ros2 action list # Lists actions
 ```sh
 ros2 run <package_name> <executable_name>
 ```
-
+## Change the Default Log Level
+```sh
+ros2 run <package> <node> --ros-args --log-level WARN
+```
 ## Remapping
 
 [Remapping](https://design.ros2.org/articles/ros_command_line_arguments.html#name-remapping-rules) allows you to reassign default node properties, like node name, topic names, service names, etc., to custom values.
@@ -32,3 +35,8 @@ Example:
 ```sh
 ros2 node info /my_node
 ```
+# ros2 interface
+```sh
+ros2 interface show <data_type>
+```
+Shows you everything you need to know about a datatype. 

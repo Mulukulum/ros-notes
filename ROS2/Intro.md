@@ -8,3 +8,24 @@ The ROS graph is a network of ROS 2 elements processing data together at the sam
 ![ROS2 Graph](Images/ROS2%20Graph.png)
 
 Each node in ROS should be responsible for a single, modular purpose, e.g. controlling the wheel motors or publishing the sensor data from a laser range-finder. Each node can send and receive data from other nodes via topics, services, actions, or parameters.
+
+# Nodes
+![Nodes](Nodes.md)
+## *Node Parameters*
+![Parameters](Parameters.md)
+# Communication Methods
+
+## *Topics*
+
+![Topics](Topics.md)
+
+## *Services*
+
+![Services](Services.md)
+
+## *Actions*
+![Actions](Actions.md)
+
+# Configuration and Commands
+![Configuration](Configuration.md)
+![Commands](Commands.md)

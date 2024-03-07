@@ -1,5 +1,6 @@
-### ROS 2 breaks complex systems down into many modular nodes. Topics are a vital element of the ROS graph that act as a bus for nodes to exchange messages.
-
+# What is it?
+### ROS 2 breaks complex systems down into many modular nodes. Topics are a vital element of the ROS graph that allows nodes to exchange messages.
+# What can it do?
 ### A node may publish data to any number of topics and simultaneously have subscriptions to any number of topics.
 
 ![TopicMultiplePublisherandMultipleSubscriber](Images/TopicMultiplePublisherandMultipleSubscriber.gif)
@@ -43,6 +44,7 @@ Vector3  linear
 ```sh
 ros2 topic pub <topic_name> <msg_type> '<args>' 
 ```
+- [i] The `-r rate` argument can be used to publish the value at a particular rate. 
 
 ### The `'<args>'` argument is the actual data you’ll pass to the topic,
 ### This argument must be in YAML format.
